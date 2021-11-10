@@ -5,17 +5,20 @@
     border-radius: 12px;
     
 }
+
 .dark{
 background-color: #A54946;
 color: #fff;
 border-radius: 0 9px 9px 0;
 }
+
 .light{
     background-color: #fff;
     color: #A54946;
     border-right: 1px solid #A54946;
     border-radius: 12px 0 0 12px;
 }
+
 .count__value{
     color:#A54946;
     background-color: #F8E9E9;
@@ -27,11 +30,26 @@ border-radius: 0 9px 9px 0;
    min-width: 40px;
    padding:0 20px;
 }
+
 .input__count{
     padding: 2px 5px;
     border: none;
     border-bottom: 2px solid #A54946;
 }
+
 .left__align__text{
     text-align: left;
-  }
+}
+
+.container__value__container{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+}
+
+.submit{
+      border-radius: 12px;
+      background-color: #A54946;
+      color: #fff;
+      margin-top: 10px;
+}
