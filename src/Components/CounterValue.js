@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Css_Files/Counter.styles.css';
 
 function CounterValue({setValue,postValue,postCountSetValue,postMax}) {
     return (
@@ -14,4 +15,4 @@ function CounterValue({setValue,postValue,postCountSetValue,postMax}) {
     )
 }
 
-export default CounterValue
+export default React.memo(CounterValue);

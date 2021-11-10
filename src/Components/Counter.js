@@ -1,5 +1,5 @@
 import React from 'react'
-import './Counter.styles.css';
+import '../Css_Files/Counter.styles.css';
 import { AiOutlinePlus,AiOutlineMinus } from "react-icons/ai";
 import { IconContext } from "react-icons";
 
